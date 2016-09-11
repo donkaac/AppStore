@@ -30,7 +30,7 @@ public class save extends HttpServlet {
             String type = request.getParameter("type");
             boolean state = Boolean.parseBoolean(request.getParameter("state"));
             System.out.println(state);
-
+            
             if (type.equals("country")) {
                 String countryname = request.getParameter("newcountry");
                 ArrayList<Object> HQLQuary = DataParser.HQLQuary("FROM Country WHERE countryName='" + countryname + "'");
