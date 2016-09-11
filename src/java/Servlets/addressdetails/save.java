@@ -35,7 +35,7 @@ public class save extends HttpServlet {
                 String countryname = request.getParameter("newcountry");
                 ArrayList<Object> HQLQuary = DataParser.HQLQuary("FROM Country WHERE countryName='" + countryname + "'");
                 if (HQLQuary.isEmpty()) {
-                    System.out.println("is new");
+                    System.out.println("is new checkd");
                     Country country = new Country();
                     country.setCountryName(countryname);
                     country.setState(true);
