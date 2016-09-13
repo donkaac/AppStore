@@ -23,7 +23,7 @@
 
                 <form class="form-signin" method="post" id="login-form">
 
-                    <h2 class="form-signin-heading">Log In to WebApp.</h2><hr />
+                    <h2 class="form-signin-heading">Registration</h2><hr />
 
                     <div id="error">
                         <!-- error will be shown here ! -->
