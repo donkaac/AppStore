@@ -18,15 +18,15 @@
     </head>
     <body>
     <center>
-        <h1 class=" danger error-404"><span class="glyphicon glyphicon-warning-sign" style="color: #fbf069;background-size: 50px"></span> FILE NOT FOUND !</br>
+        <h1 class=" danger error-404"><span class="glyphicon glyphicon-warning-sign" style="color: #fbf069;background-size: 50px"></span> Process Error !</br>
             
             <div class="error-404">  	
     	<div class="error-page-left">
-    		<img src="images/" alt="">
+            <img src="images/visit.png" alt="">
     	</div>
     	<div class="error-right">
-	    	<h2>Oops! Page Not Open</h2>
-	    	<h4>Nothing Is Found Here!!</h4>
+	    	<h2>Oops! Internal Error</h2>
+	    	<h4>You Process Fail !!</h4>
                 
     	</div>
     </div>
