@@ -28,6 +28,14 @@
         <servlet-name>userLogin</servlet-name>
         <servlet-class>Servlets.userLogin</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>savedeveloper</servlet-name>
+        <servlet-class>Servlets.savedeveloper</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>savestaff</servlet-name>
+        <servlet-class>Servlets.savestaff</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>sevlet</servlet-name>
         <url-pattern>/sevlet</url-pattern>
@@ -55,6 +63,14 @@
     <servlet-mapping>
         <servlet-name>userLogin</servlet-name>
         <url-pattern>/userLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>savedeveloper</servlet-name>
+        <url-pattern>/savedeveloper</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>savestaff</servlet-name>
+        <url-pattern>/savestaff</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
