@@ -353,6 +353,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 </ul>
             </nav>
         </div>
+        
         <!-- general -->
         <div class="general">
             <h4 class="latest-text w3_latest_text">Featured Movies</h4>
